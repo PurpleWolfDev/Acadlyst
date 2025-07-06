@@ -15,14 +15,14 @@ const randomstring = require("randomstring");
 let jwtKey = process.env.jwtKey;
 // app.use(express.urlencoded({extended:true}));
 app.use(bodyParser.json({ limit: '10mb' }));
-
-app.listen(port, () => {
-    console.log("Server Is Started!");
-});
 app.use(cors({
     origin:'*'
 }
 ));
+
+app.listen(port, () => {
+    console.log("Server Is Started!");
+});
 
 
 const sendEmail = async(email, link) => {
@@ -34,7 +34,7 @@ const sendEmail = async(email, link) => {
         }
     });
     const mailOpt = {
-        from : 'purplefoxdevs@gmail.com',
+        from : 'Your Email...',
         to: email,
         subject: "Kindly Verify Your Account",
         html:`<p>Hello,</p>
