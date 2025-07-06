@@ -110,7 +110,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 Invitation Link
               </p>
               <p onClick={() => {
-                navigator.clipboard.writeText(`https://onlinecoachingfront.onrender.com/batchJoin?inviteId=${localStorage.getItem("inviteLink")}&id=${localStorage.getItem("sId")}`)
+                navigator.clipboard.writeText(`https://acadlyst.netlify.app/batchJoin?inviteId=${localStorage.getItem("inviteLink")}&id=${localStorage.getItem("sId")}`)
     .then(() => {
       alert("Copied to clipboard!");
     })
@@ -118,7 +118,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       console.error("Failed to copy:", err);
     });
               }}  className="text-xs text-gray-900/60 mt-1 overflow-hidden">
-                Tap to Copy : {`https://onlinecoachingfront.onrender.com/batchJoin?inviteId=${localStorage.getItem("inviteLink")}&id=${localStorage.getItem("sId")}`}
+                Tap to Copy : {`https://acadlyst.netlify.app/batchJoin?inviteId=${localStorage.getItem("inviteLink")}&id=${localStorage.getItem("sId")}`}
               </p>
             </div>
           </div>

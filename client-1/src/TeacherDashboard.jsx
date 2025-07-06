@@ -523,7 +523,7 @@ export function TeacherDashboard() {
               <div 
                 // key={batch.id} 
                 className="bg-gray-50 border border-gray-200 rounded-2xl p-4 hover:border-blue-300 hover:bg-blue-50 transition-all duration-300 hover:transform hover:scale-102 hover:shadow-md cursor-pointer group"
-                onClick={() => window.location.href = "https://homebackendfront.onrender.com/validate?bId="+batch.bId+"&id="+batch.adminId+"&session="+JSON.parse(localStorage.getItem("userData")).teacherToken}
+                onClick={() => window.location.href = "https://acadlystv2.netlify.app/validate?bId="+batch.bId+"&id="+batch.adminId+"&session="+JSON.parse(localStorage.getItem("userData")).teacherToken}
               >
                 {batchNav?<Navigate to={`${batchNav}`} />:null}
                 <div className="flex items-center justify-between">
