@@ -119,7 +119,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 🗣️ Contact
 
 **Purple Wolf Dev**\
-Project Link: [https://github.com/](https://github.com/)/acadlyst\
+Email : purplewolfdev@gmail.com
 LinkedIn: [https://linkedin.com/in/purple-wolf-dev/](https://linkedin.com/in/purple-wolf-dev/)
 
 ---
